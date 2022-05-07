@@ -1,0 +1,39 @@
+body {
+  background-color: aliceblue;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+h1 {
+  margin: 0;
+}
+
+.about-apple {
+  font-size: 50px;
+  text-align: left;
+  margin: 100px;
+  padding-top: 50px;
+  padding-bottom: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.list {
+  background-color: rgb(49, 49, 50);
+  color: rgb(213, 213, 213);
+  text-align: center;
+  display: grid;
+  grid-template-columns: 50px repeat(10, 1fr);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 2rem;
+  font-weight: normal;
+}
+#smallapplelogo {
+  position: center;
+}
+.apple_font_color {
+  color: rgb(213, 213, 213);
+}

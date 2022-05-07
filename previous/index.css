@@ -1,0 +1,44 @@
+body {
+  background-color: #f9f4f4;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+h1 {
+  margin: 0;
+}
+.about-apple {
+  margin: 100px;
+  font-size: 50px;
+  text-align: left;
+}
+.Apple_family_photo {
+  background-image: url(../img/apple_products.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 600px;
+}
+.list {
+  position: center;
+  background-color: rgb(49, 49, 50);
+  color: rgb(213, 213, 213);
+  text-align: center;
+  display: grid;
+  grid-template-columns: 50px repeat(10, 1fr);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 2rem;
+}
+#smallapplelogo {
+  position: center;
+}
+.apple_font_color {
+  color: rgb(213, 213, 213);
+}
+.Historical_logos {
+  display: grid;
+  grid-template-rows: 150px repeat(7, 1fr);
+}

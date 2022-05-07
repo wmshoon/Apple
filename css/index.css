@@ -1,0 +1,367 @@
+body {
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.mainTitle {
+  font-size: 300%;
+}
+.about-apple {
+  margin-top: 150px;
+  font-size: 50px;
+  text-align: left;
+}
+.list {
+  background-color: rgb(49, 49, 50);
+  color: rgb(213, 213, 213);
+  display: grid;
+  grid-template-columns: 50px repeat(7, 1fr);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 2rem;
+}
+#smallapplelogo {
+  position: center;
+}
+.apple_font_color {
+  color: rgb(213, 213, 213);
+}
+.Historical_logos {
+  display: grid;
+  grid-template-rows: 150px repeat(7, 1fr);
+}
+.oneToOneGridY {
+  text-align: center;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+.twoToOneGridY {
+  text-align: center;
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+}
+.oneToOneGridXY {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.oneToOneGridXY3 {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+.oneToOneGridXY4 {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+.oneToOneGridX {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.font-size-200 {
+  font-size: 200%;
+}
+.array {
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+}
+#gradientForAppleProducts {
+  margin-top: 10rem;
+  border: 1rem solid transparent;
+  border-radius: 2rem;
+  background-image: linear-gradient(to right, #fbfcb9be, #ffcdf3aa, #65d3ffaa);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+#gradientForMac {
+  color: black;
+  border: 1rem solid transparent;
+  border-radius: 2rem;
+  background-image: linear-gradient(to right, #a3aaae, #555555);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+#gradientForiPhones {
+  color: white;
+  border: 1rem solid transparent;
+  border-radius: 2rem;
+  background-image: linear-gradient(to right, #9bbad6 28.2%, #6b6764 33.5%, #fbe7ce 43.3%, #f5f6f0 52.8%, #5e6f5d 63%);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+#gradientForiPads {
+  color: black;
+  border: 1rem solid transparent;
+  border-radius: 2rem;
+  background-image: linear-gradient(to bottom, #833ab4, #fd1d1d, #fcb045);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+#gradientForWatch {
+  color: rgb(74, 74, 74);
+  border: 1rem solid transparent;
+  border-radius: 2rem;
+  background-image: linear-gradient(to left, #497560, #2a574b);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+#gradientForAirPods {
+  border: 1rem solid transparent;
+  border-radius: 2rem;
+  background-image: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+.gradient1 {
+  border: 1rem solid transparent;
+  border-radius: 2rem;
+  background-image: linear-gradient(135deg, #b00d23, white);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+.gradient2 {
+  border: 1rem solid transparent;
+  border-radius: 2rem;
+  background-image: linear-gradient(225deg, #d0102b, white);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+.gradient3 {
+  border: 1rem solid transparent;
+  border-radius: 2rem;
+  background-image: linear-gradient(45deg, #b4b5b9, white);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+.gradient4 {
+  border: 1rem solid transparent;
+  border-radius: 2rem;
+  background-image: linear-gradient(315deg, #03001e, #7303c0, #ec38bc, #fdeff9);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+.gradtext {
+  background: #55ffaa;
+  background: linear-gradient(to right, #55ff55, #55ffff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 4rem;
+  font-weight: bold;
+}
+.gradtextForPro {
+  background: #55ffaa;
+  background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.gradtextForEarth {
+  background: #55ffaa;
+  background: linear-gradient(to right, #455a3c, #869161, #c4bb6c, #efe48b, #cca244, #885520);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.gradtextForDesign {
+  background: #55ffaa;
+  background: linear-gradient(to right, #c6ffdd, #fbd786, #f64f59);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.gradtextForiMacG3 {
+  background: #55ffaa;
+  background: linear-gradient(to right, #1f4037, #99f2c8);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 4rem;
+  font-weight: bold;
+}
+.iMacG3grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.gradtextForMacBookAir {
+  background: #55ffaa;
+  background: linear-gradient(to right, #ff00ee, #55ffff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 4rem;
+  font-weight: bold;
+}
+.gradtextForiPhone {
+  background: #55ffaa;
+  background: linear-gradient(to right, #5e4cff, #7c70ff, #9696ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 4rem;
+  font-weight: bold;
+}
+.gradtextForWatch {
+  background: #55ffaa;
+  background: linear-gradient(to right, #5e4cff, #7c70ff, #9696ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 4rem;
+  font-weight: bold;
+}
+.gradtextForM1Chip {
+  background: #55ffaa;
+  background: linear-gradient(45deg, #8e2de2, #4a00e0, #8a2387, #e94057, #f27121, #55ffff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 4rem;
+  font-weight: bold;
+}
+.gradtextForiPhone6 {
+  background: #55ffaa;
+  background: linear-gradient(45deg, #77a1d3, #79cbca, #e684ae);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 4rem;
+  font-weight: bold;
+}
+.gradtextForiPhone11 {
+  background: #55ffaa;
+  background: linear-gradient(45deg, #77a1d3, #79cbca, #e684ae);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 4rem;
+  font-weight: bold;
+}
+.gradtextForiPhone13 {
+  background: #55ffaa;
+  background: linear-gradient(45deg, #77a1d3, #79cbca, #e684ae);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 4rem;
+  font-weight: bold;
+}
+.gradtextForAirPods {
+  background: #55ffaa;
+  background: linear-gradient(45deg, #77a1d3, #79cbca, #e684ae);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 4rem;
+  font-weight: bold;
+}
+.AirPods {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.Watch {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+.simgrid {
+  color: black;
+  border: 1rem solid transparent;
+  border-radius: 1.5rem;
+  background-image: linear-gradient(to right, skyblue, darkblue);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+.simgridFor2700 {
+  font-size: 10rem;
+  color: ivory;
+  border: 1rem solid transparent;
+  border-radius: 1.5rem;
+  background-image: linear-gradient(to right, #280404, #d0102b, #280404);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+.ProductRed {
+  font-size: 200%;
+  color: black;
+  border: 1rem solid transparent;
+  border-radius: 1.5rem;
+  background-image: linear-gradient(to right, #b00d23, #c21526);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+.grid2to3X {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  grid-template-rows: 3fr 2fr;
+}
+
+.grid3to2X {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+.insideGRAD {
+  border: 5px solid transparent;
+  border-radius: 1.5rem;
+  background-image: linear-gradient(black, black), linear-gradient(to right, #fbfcb9be, #ffcdf3aa, #65d3ffaa);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+.gradForqjflfrjs {
+  border: 5px solid transparent;
+  border-radius: 1.5rem;
+  background-image: linear-gradient(black, black), linear-gradient(to right, #fe8c00, #f83600);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+.gradForqjflrh {
+  border: 5px solid transparent;
+  border-radius: 1.5rem;
+  background-image: linear-gradient(black, black), linear-gradient(to right, #0f2027, #203a43);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+.gradForcodrlfrjs {
+  border: 5px solid transparent;
+  border-radius: 1.5rem;
+  background-image: linear-gradient(black, black), linear-gradient(to right, #52c234, #061700);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+.gradForcodrlrh {
+  border: 5px solid transparent;
+  border-radius: 1.5rem;
+  background-image: linear-gradient(black, black), linear-gradient(to right, #dce35b, #45b649);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+.forEarth {
+  background: fixed;
+  background-repeat: no-repeat;
+  background-image: url(../img/earth.png);
+  background-size: 50%;
+  background-position-x: center;
+  background-position-y: 7rem;
+}
+.proback {
+  background: fixed;
+  background-repeat: no-repeat;
+  background-image: url(../img/pro_bg.jpeg);
+  background-size: 100%;
+  background-position-x: center;
+  background-position-y: 7rem;
+}
